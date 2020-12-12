@@ -1,0 +1,66 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: blue;
+}
+
+.leftBox{
+  position: fixed;
+  bottom: 20px;
+  background: red;
+  width: 450px;
+  margin: 20px;
+}
+
+.rightBox{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  width: 450px;
+  margin: 20px;
+}
+
+.letter{
+  text-align: center;
+  width: 100px;
+  height: 120px;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  background: white;
+  border-radius: 5px;
+}
+
+.letter_special{
+  height: 120px;
+  text-align: center;
+  width: 130px;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+  background: white;
+  border-radius: 5px;
+}
+
+.pressed{
+  background: lightgrey;
+}
+
+.dropdown{
+  padding: 20px;
+  position: fixed;
+  top: 100px;
+  font-size: 30px;
+}
+
+#notes{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
